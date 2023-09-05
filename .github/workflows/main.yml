@@ -17,9 +17,12 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '18'
-    #   - name: Install Dependencies
-    #     run: npm install
-    #   - name: Build
-    #     run: npm run build
-    #   - name: Run Tests
-    #     run: npm test
+      - name: Install Dependencies
+        working-directory: amali-informational
+        run: npm install
+      - name: Build
+        working-directory: amali-informational
+        run: npm run build
+      - name: Run Tests
+        working-directory: amali-informational
+        run: npm test
