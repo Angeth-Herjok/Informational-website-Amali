@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import OurTeam from './OurTeam';
+import OurTeam from './Component/OurTeam';
 
 
 function App() {
