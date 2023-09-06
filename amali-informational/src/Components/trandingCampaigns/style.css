@@ -1,0 +1,106 @@
+.images-section{
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    border-radius: 5px;
+    margin-right: 2em;
+    font-family: merriweather;
+}
+.kenyan-athletes{
+    border-radius: 18px;
+    width: 70%;
+}
+.my-donation{
+    font-size: 1.5em;
+}
+.teams{
+    padding-left: 1em;
+    font-size: 2.5em;
+}
+.section-divider{
+    border: 1.9px solid green;
+    width: 8%;
+    margin: 10px auto;
+}
+.images-section {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    border-radius: 5px;
+    margin-left: 2em;
+    font-family: merriweather;
+}
+
+.kenyan-athletes {
+    border-radius: 18px;
+    width: 70%;
+}
+
+.my-donation {
+    font-size: 1.5em;
+}
+
+.teams {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.divider {
+    border: 1.9px solid green;
+    width: 8%;
+    margin: 10px auto;
+}
+
+@media (max-width: 375px){
+    .kenyan-athletes {
+        width: 95%;
+    }
+    .divider {
+        width: 36%; 
+    }
+}
+
+@media (max-width: 768px) {
+    .images-section {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .kenyan-athletes {
+        width: 95%;
+    }
+
+    .teams {
+        font-size: 2em; 
+    }
+}
+
+@media (max-width: 480px) {
+    .images-section {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+
+    .my-donation {
+        font-size: 1em; 
+    }
+
+    .teams {
+        font-size: 1.8em; 
+    }
+
+    .divider {
+        width: 15%; 
+    }
+}
+
+@media (max-width: 1280px){
+    .images-section {
+        margin-left: 0;
+        padding-left: 2em;
+    }
+
+    .kenyan-athletes {
+        width: 90%;
+    }
+
+}
