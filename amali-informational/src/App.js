@@ -1,7 +1,6 @@
 import './App.css';
 import TrendingCampaigns from './Components/TrendingCampaigns';
 
-
 function App() {
   return (
     <div>
@@ -11,3 +10,5 @@ function App() {
 }
 
 export default App;
+
+
