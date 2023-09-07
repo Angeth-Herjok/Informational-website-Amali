@@ -12,12 +12,15 @@ const AboutUs = () => {
       <div className="text-container">
         <h2 className='headingAbout'>Our Mission</h2>
         <p className='mission'>
-          Amali is the essential app for athletes, providing a unique space<br/> to connect,
-          collaborate and thrive together. Whether you're a beginner or a<br/> seasoned pro,
-          Amali offers a vibrant community where you can share experiences,<br/> find mentorship 
-          and access vital resources. Join us in revolutionizing athlete support<br/>,creating
-          a stronger and more united athletic world. Empower yourself, connect with <br/>like-minded
-          individuals and take your athletic journey to new heights with Amali.
+          Amali is the essential app for athletes that provides unique space
+          to connect collaborate and thrive together.Whether you are a
+          beginner or a seasoned pro.Amali offers a vibrant community where
+          you can share experiences ,find mentorship and access vital resources
+          Join us in revolutionizing athlete support,creating a 
+          stronger and more united athletic world.Empower yourself,connect
+          wih like-minded individuals and take your athletic journey to a 
+          new height with Amali.
+         
         </p>
       </div>
     </div>
