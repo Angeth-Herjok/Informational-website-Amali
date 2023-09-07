@@ -1,13 +1,17 @@
 import './App.css';
-import AboutUs from './About-Us';
+import AboutUs from './Components/About-Us';
+import TrendingCampaigns from './Components/TrendingCampaigns';
 
 const App =()=> {
   return (
     <div>
       <AboutUs/>
 
+      <TrendingCampaigns/>
     </div>
   );
 }
 
 export default App;
+
+

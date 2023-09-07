@@ -7,7 +7,7 @@ const AboutUs = () => {
       <hr className="section-divides" />
       <div className="about-us-container">
       <div className="image-container">
-        <img src="/Images/wireframe.png" alt="Company Team" className='frame' />
+        <img src="/images/wireframe.png" alt="Company Team" className='frame' />
       </div>
       <div className="text-container">
         <h2 className='headingAbout'>Our Mission</h2>
