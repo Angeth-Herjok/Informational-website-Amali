@@ -1,5 +1,5 @@
 import './App.css';
-import TrendingCampaigns from './Components/trandingCampaigns';
+import TrendingCampaigns from './Components/trendingCampaigns';
 
 
 function App() {

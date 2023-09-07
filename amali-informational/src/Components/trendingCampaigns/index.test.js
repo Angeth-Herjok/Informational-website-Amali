@@ -13,8 +13,8 @@ describe('TrendingCampaigns', () => {
 
     
     const imagesWithText = [
-      { imageName: 'athlete4.png', text: '1500 Metres runner' },
-      { imageName: 'athlete5.png', text: '800 Metres runner' },
+      { imageName: 'jepkemoi.png', text: '1500 Metres runner' },
+      { imageName: 'rudisha.png', text: '800 Metres runner' },
       { imageName: 'kipchoge.png', text: '42 Kilometres runner' },
     ];
 
