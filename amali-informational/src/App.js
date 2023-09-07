@@ -1,7 +1,7 @@
 import './App.css';
 import HomePage from './Home';
 
-function App() {
+const App =()=> {
   return (
     <div>
       <HomePage/>
@@ -10,3 +10,5 @@ function App() {
 }
 
 export default App;
+
+
