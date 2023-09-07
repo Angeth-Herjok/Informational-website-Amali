@@ -1,9 +1,13 @@
 import './App.css';
+import AboutUs from './Components/About-Us';
 import TrendingCampaigns from './Components/TrendingCampaigns';
+// import AboutUs from './About-Us';
 
-function App() {
+const App =()=> {
   return (
     <div>
+      <AboutUs/>
+
       <TrendingCampaigns/>
     </div>
   );
