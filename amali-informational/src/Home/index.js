@@ -30,7 +30,7 @@ const HomePage = () => {
       <div className="background"></div>
       <div className="overlay"></div>
       <p className="caption">
-        A little donation can have a ripple<br />effect on athletes.
+        A little donation can have a ripple effect on athletes.
       </p>
     </div>
   );
