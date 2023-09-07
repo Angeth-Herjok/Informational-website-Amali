@@ -1,14 +1,10 @@
 import './App.css';
-import AboutUs from './Components/About-Us';
-import TrendingCampaigns from './Components/TrendingCampaigns';
-// import AboutUs from './About-Us';
+import HomePage from './Home';
 
 const App =()=> {
   return (
     <div>
-      <AboutUs/>
-
-      <TrendingCampaigns/>
+      <HomePage/>
     </div>
   );
 }
