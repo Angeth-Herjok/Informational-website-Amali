@@ -1,12 +1,10 @@
-import React from 'react';
 import './App.css';
-import OurTeam from './Component/OurTeam';
-
+import TrendingCampaigns from './Components/TrendingCampaigns';
 
 function App() {
   return (
     <div>
-      <OurTeam/>
+      <TrendingCampaigns/>
     </div>
   );
 }
