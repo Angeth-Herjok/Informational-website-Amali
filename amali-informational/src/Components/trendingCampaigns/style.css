@@ -65,6 +65,18 @@
     
 }
 
+@media (max-width: 414px){
+    .images-section {
+        text-align: center;
+        padding-right: 0.5em;
+    }
+
+    .athletes {
+        text-align: center;
+        padding-right: 2em;
+    }
+}
+
 @media (max-width: 768px) {
     .images-section {
         margin-left: 0;
