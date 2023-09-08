@@ -1,10 +1,11 @@
 import './App.css';
-import HomePage from './Home';
+import OurTeam from './Component/OurTeam';
+
 
 const App =()=> {
   return (
     <div>
-      <HomePage/>
+      <OurTeam/>
     </div>
   );
 }

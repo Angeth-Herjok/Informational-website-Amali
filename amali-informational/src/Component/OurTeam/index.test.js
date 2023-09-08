@@ -21,7 +21,7 @@ test('renders team member names', () => {
 });
 
 test('renders social links for team members', () => {
-    render(<OurTeam />);
+    render(<OurTeam/>);
  
   const links = screen.getAllByRole('link');
   const emailLinks = links.filter(link => link.href.startsWith('mailto:'));
