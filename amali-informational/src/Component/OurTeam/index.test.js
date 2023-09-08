@@ -4,12 +4,14 @@ import OurTeam from '.';
 
 test('renders Meet Our Team heading', () => {
   render(<OurTeam />);
+
   const headingElement = screen.getByText('Meet Our Team');
   expect(headingElement).toBeInTheDocument();
 });
 
 test('renders team member names', () => {
   render(<OurTeam />);
+
   expect(screen.getByText('Angeth Herjok')).toBeInTheDocument();
   expect(screen.getByText('Eunice Mjera')).toBeInTheDocument();
   expect(screen.getByText('Ann Muyale')).toBeInTheDocument();

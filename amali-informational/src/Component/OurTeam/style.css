@@ -33,10 +33,10 @@
     display: inline-block;
     margin: 0 5px;
     text-decoration: none;
-    color: #333;
+    color: #220422;
   }
   .social-link{
-    color: black;
+    color: rgb(19, 3, 3);
     font-size: 20px;
   }
   .team{
