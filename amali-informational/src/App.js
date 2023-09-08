@@ -1,12 +1,10 @@
-import React from 'react';
 import './App.css';
-import OurTeam from './Component/OurTeam';
+import HomePage from './Home';
 
-
-function App() {
+const App =()=> {
   return (
     <div>
-      <OurTeam/>
+      <HomePage/>
     </div>
   );
 }
