@@ -52,7 +52,7 @@ const teamMembers = [
 
 const OurTeam = () => {
   return (
-    <div className="our-team-container">
+    <div className="our-team-container" id='team'>
       <h2 className='team'>Meet Our Team</h2>
       <hr className="section-divider-line" />
       <div className="team-members">

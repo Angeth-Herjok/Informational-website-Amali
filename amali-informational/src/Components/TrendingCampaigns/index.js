@@ -1,21 +1,18 @@
 import React from "react";
-import "./style.css";
-
-const imagePaths = [
+import "./style.css";const imagePaths = [
   "jepkemoi.png",
   "rudisha.png",
   "kipchoge.png",
 ];
-
 const TrendingCampaigns = () => {
   const imagesWithText = [
-    { imageName: imagePaths[0], text: "1500 Metres runner" },
-    { imageName: imagePaths[1], text: "800 Metres runner" },
-    { imageName: imagePaths[2], text: "42 Kilometres runner" },
-  ];
-
-  return (
-    <div>
+    { imageName: imagePaths[0], text: "1500 Meters runner", name: "Vivian Jepkemoi" },
+    { imageName: imagePaths[1], text: "820 Meters runner", name: "David Rudisha" },
+    { imageName: imagePaths[2], text: "42 Kilometers runner", name: "Eliud Kipchoge" },
+  ];  const handleDonateClick = (athlete) => {
+    console.log(`Donating to ${athlete.name}`);
+  };  return (
+    <div id="athletes">
       <h1 className="teams">Trending Campaigns</h1>
       <hr className="divider" />
       <div className="categories"></div>
@@ -27,8 +24,10 @@ const TrendingCampaigns = () => {
               src={`/images/${item.imageName}`}
               alt={`winner-${index}`}
             />
-            <div className="win">
-              <ul className="donation">{item.text}</ul>
+            <div>
+              <p><strong style={{ fontSize: 'larger' }}>{item.name}</strong></p>
+              <p>{item.text}</p>
+              <button className="donate-button" onClick={() => handleDonateClick(item)}>Donate</button>
             </div>
           </div>
         ))}
@@ -36,5 +35,4 @@ const TrendingCampaigns = () => {
     </div>
   );
 };
-
 export default TrendingCampaigns;

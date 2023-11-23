@@ -1,8 +1,9 @@
 import React from 'react';
 import './style.css';
+
 const AboutUs = () => {
   return (
-    <div  className='all'>
+    <div  className='all' id='about'>
       <h1 className='team'>About Amali</h1>
       <hr className="section-divides" />
       <div className="about-us-container">
